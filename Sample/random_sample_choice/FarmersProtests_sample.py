@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-farmer = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/farmerprotest_comments.csv"
+farmer = r"C:/Users/.../farmerprotest_comments.csv"
 
 df = pd.read_csv(farmer)
 print(len(df))
@@ -10,7 +10,7 @@ nr_mess = len(df)
 print(f"Anzahl Messages: {nr_mess}")
 print(df.head())
 
-df.to_csv("C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/farmerprotest_comments_na_rem.csv")
+df.to_csv("C:/Users/.../farmerprotest_comments_na_rem.csv")
 
 RANDOM_SEED = 42
 np.random.seed(RANDOM_SEED)
@@ -34,4 +34,4 @@ print(sampled_df)
 
 
 
-sampled_df.to_csv("C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/sample_farmer_big.csv")
+sampled_df.to_csv("C:/Users/.../sample_farmer_big.csv")
