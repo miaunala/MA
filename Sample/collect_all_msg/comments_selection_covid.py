@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-direct_covid1 = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/Scraping/telegraph-main/csv_data_1_corona"
-direct_covid2 = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/Scraping/telegraph-main/csv_data_2_corona"
+direct_covid1 = r"C:/Users/.../csv_data_1_corona"
+direct_covid2 = r"C:/Users/.../csv_data_2_corona"
 
 
 covid1 = []
