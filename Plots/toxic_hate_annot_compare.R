@@ -3,8 +3,8 @@ library(readr)
 library(gridExtra)
 library(ggplot2)
 
-base_small <- "C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/my_and_gpt_annot/"
-base_big <- "C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/"
+base_small <- "C:/Users/.../my_and_gpt_annot/"
+base_big <- "C:/Users/.../gpt_hatestoxicspeech/"
 
 covid_small_round1 <- read_csv(file.path(base_small, "sample_covid_gpt_annot.csv"))
 farmer_small_round1 <- read_csv(file.path(base_small, "sample_farmer_gpt_annot.csv"))
