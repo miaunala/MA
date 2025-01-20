@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import classification_report, accuracy_score
 
-basic_path = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/my_and_gpt_annot/"
+basic_path = r"C:/Users/.../my_and_gpt_annot/"
 
 
 # Load in the annotations
@@ -119,7 +119,7 @@ def generate_classification_report(annotator1, annotator2, title, movement, roun
     title = f"{movement}_{round_num}_GroundTruth_{name}"
 
     # Define output paths
-    output_dir = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/HeatPlots_Results_Compare_Annot/"
+    output_dir = r"C:/Users/whatt/.../HeatPlots_Results_Compare_Annot/"
     csv_output_path = f"{output_dir}{title}.csv"
     png_output_path = f"{output_dir}{title}.png"
 
@@ -130,7 +130,7 @@ def generate_classification_report(annotator1, annotator2, title, movement, roun
     # Save the classification report as a PNG
     save_dataframe_as_png(df, png_output_path)
     print(f"PNG saved at {png_output_path}")
-    #df.to_csv(f"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/HeatPlots_Results_Compare_Annot/{title}.csv")
+    #df.to_csv(f"C:/Users/.../HeatPlots_Results_Compare_Annot/{title}.csv")
 
 
 # Confusion matrices and heatmaps
