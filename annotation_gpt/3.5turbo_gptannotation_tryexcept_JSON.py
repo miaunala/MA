@@ -6,7 +6,7 @@ import pandas as pd
 import pdfplumber
 
 # Paths to datasets and codebook
-base = "C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/"
+base = "C:/Users/.../gpt_hatestoxicspeech/"
 covid_path = base + "sample_covid_big.csv"
 covid_raw_path = base + "covid_raw/"
 farmer_path = base + "sample_farmer_big.csv"
