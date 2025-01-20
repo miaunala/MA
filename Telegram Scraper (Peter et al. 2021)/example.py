@@ -2,9 +2,9 @@
 from scraper.scraper import Scraper
 from scraper.client import Client
 
-Client(api_id=22406367,
-       api_hash="c4c4ce1db1883a510fb79c9ae2e62143",
-       phone="+41775307904")
+Client(api_id=...,
+       api_hash="...",
+       phone="...")
 
 scraper = Scraper(num_messages=None,
                   step_size=200,
