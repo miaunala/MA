@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-direct_farmer = r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/csv_data_farmerprotest.cxv"
+direct_farmer = r"C:/Users/.../csv_data_farmerprotest.csv"
 
 farmer = []
 
