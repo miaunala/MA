@@ -3,7 +3,7 @@ library("ggplot2")
 library("ggExtra")
 library("readr")
 
-setwd("C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech")
+setwd("C:/Users/.../gpt_hatestoxicspeech")
 
 # Plots for data section 
 
