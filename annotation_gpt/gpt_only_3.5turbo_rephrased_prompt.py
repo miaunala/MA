@@ -5,10 +5,10 @@ import tiktoken
 
 
 # Paths to datasets and codebook
-base = "C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/"
+base = "C:/Users/.../gpt_hatestoxicspeech/"
 covid_path = base + "sample_covid_big.csv"
 farmer_path = base + "sample_farmer_big.csv"
-openai.api_key = "YOUR_KEYl"
+openai.api_key = "YOUR_API_KEY"
 
 # Covid Stuff
 covid_msg = pd.read_csv(covid_path, encoding='utf-8')
