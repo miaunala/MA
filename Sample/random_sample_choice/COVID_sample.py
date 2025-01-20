@@ -3,7 +3,7 @@ import numpy as np
 #import spacy
 import re
 
-covid= r"C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/corona_comments.csv"
+covid= r"C:/Users/.../corona_comments.csv"
 
 df = pd.read_csv(covid)
 print(len(df))
