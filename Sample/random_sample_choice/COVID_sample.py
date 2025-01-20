@@ -12,7 +12,7 @@ nr_mess = len(df)
 print(f"Anzahl Messages: {nr_mess}")
 print(df.head())
 
-df.to_csv("C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/corona_comments_na_rem.csv")
+df.to_csv("C:/Users/.../corona_comments_na_rem.csv")
 RANDOM_SEED = 42
 np.random.seed(RANDOM_SEED)
 
@@ -30,4 +30,4 @@ sampled_indices = np.random.choice(df.index, size=25000, replace=False, p=normal
 sampled_df = df.loc[sampled_indices]
 print(sampled_df)
 
-sampled_df.to_csv("C:/Users/whatt/iCloudDrive/UZH/Master/Master Thesis/gpt_hatestoxicspeech/sample_covid_big.csv")
+sampled_df.to_csv("C:/Users/.../sample_covid_big.csv")
